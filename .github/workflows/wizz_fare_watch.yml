@@ -34,7 +34,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          WIZZ_API_VERSION: ${{ vars.WIZZ_API_VERSION }}
+          WIZZ_API_VERSION: ${{ vars.WIZZ_API_VERSION || '24.9.0' }}
         run: python tracker.py
 
       - name: Save price history
