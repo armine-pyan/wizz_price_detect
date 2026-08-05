@@ -1,6 +1,7 @@
 {
   "origin": "EVN",
   "dates": ["2026-08-22", "2026-08-23", "2026-08-24"],
+  "destinations": ["FCO", "MXP", "BRI", "RHO", "PRG", "OTP", "DTM", "EIN", "LTN"],
   "alert_threshold_usd": 10,
   "currency": "EUR",
   "language_code": "en-gb"
